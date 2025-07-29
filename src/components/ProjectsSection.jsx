@@ -65,15 +65,15 @@ const ProjectsSection = () => {
                     </span>
 
                   </>))}
-                </div>
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                >
-                  <Github size={20} />
-                </a>
 
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                  >
+                    <Github size={20} />
+                  </a>
+                </div>
                 <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}

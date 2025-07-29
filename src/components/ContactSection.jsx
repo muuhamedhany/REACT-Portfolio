@@ -54,7 +54,6 @@ import {
                     <Mail className="h-6 w-6 text-primary" />{" "}
                   </div>
                   <div>
-                    <h4 className="font-medium"> Email</h4>
                     <a
                       href="mailto:muuhamedhany@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -68,7 +67,6 @@ import {
                     <Phone className="h-6 w-6 text-primary" />{" "}
                   </div>
                   <div>
-                    <h4 className="font-medium"> Phone</h4>
                     <a
                       href="tel:+201004899835"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -82,7 +80,6 @@ import {
                     <MapPin className="h-6 w-6 text-primary" />{" "}
                   </div>
                   <div>
-                    <h4 className="font-medium"> Location</h4>
                     <a className="text-muted-foreground hover:text-primary transition-colors">
                       Cairo, Egypt
                     </a>

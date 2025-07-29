@@ -38,7 +38,9 @@ const NavBar = () => {
             </a>
 
             {/* desktop nav */}
-            <div className="hidden md:flex space-x-8">
+            <div className="hidden md:flex space-x-8" style="
+    margin-right: 25px;
+">
                 {navItems.map((item, key) => (
                     <a key={key} href={item.href}
                        className="text-foreground/80 hover:text-primary transition-colors duration-300"

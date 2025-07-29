@@ -68,14 +68,16 @@ const ProjectsSection = () => {
 
 
                 </div>
-                <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                >
-                  <Github size={20} />
-                </a>
+                <h3 className="text-xl font-semibold mb-1">
+                  {project.title}
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                  >
+                    <Github size={20} />
+                  </a></h3>
+
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>

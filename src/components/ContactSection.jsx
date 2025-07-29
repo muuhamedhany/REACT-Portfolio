@@ -49,11 +49,11 @@ import {
               </h3>
   
               <div className="space-y-6 justify-center">
-                <div className="flex items-start space-x-4  mt-10">
+                <div className="flex items-start space-x-4">
                   <div className="p-3 rounded-full bg-primary/10">
                     <Mail className="h-6 w-6 text-primary" />{" "}
                   </div>
-                  <div>
+                  <div className="mt-10">
                     <a
                       href="mailto:muuhamedhany@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -62,11 +62,11 @@ import {
                     </a>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4 mt-10">
+                <div className="flex items-start space-x-4">
                   <div className="p-3 rounded-full bg-primary/10">
                     <Phone className="h-6 w-6 text-primary" />{" "}
                   </div>
-                  <div>
+                  <div className="mt-10">
                     <a
                       href="tel:+201004899835"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -75,11 +75,11 @@ import {
                     </a>
                   </div>
                 </div>
-                <div className="flex items-start space-x-4  mt-10">
+                <div className="flex items-start space-x-4">
                   <div className="p-3 rounded-full bg-primary/10">
                     <MapPin className="h-6 w-6 text-primary" />{" "}
                   </div>
-                  <div>
+                  <div className="mt-10">
                     <a className="text-muted-foreground hover:text-primary transition-colors">
                       Cairo, Egypt
                     </a>

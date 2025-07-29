@@ -112,7 +112,7 @@ import {
                 <div>
                   <label
                     htmlFor="name"
-                    className="block text-sm font-medium mb-2"
+                    className="flex justify-start block text-sm font-medium mb-2"
                   >
                     {" "}
                     Your Name
@@ -130,7 +130,7 @@ import {
                 <div>
                   <label
                     htmlFor="email"
-                    className="block text-sm font-medium mb-2"
+                    className="flex justify-start block text-sm font-medium mb-2"
                   >
                     {" "}
                     Your Email
@@ -148,7 +148,7 @@ import {
                 <div>
                   <label
                     htmlFor="message"
-                    className="block text-sm font-medium mb-2"
+                    className="flex justify-start block text-sm font-medium mb-2"
                   >
                     {" "}
                     Your Message

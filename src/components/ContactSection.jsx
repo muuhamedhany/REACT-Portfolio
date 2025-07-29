@@ -171,6 +171,7 @@ import {
                   className={cn(
                     "cosmic-button w-full flex items-center justify-center gap-2"
                   )}
+                  onClick={handleSubmit}
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                   <Send size={16} />

@@ -27,13 +27,13 @@ const NavBar = () => {
   return (
     <nav className={cn(
         "fixed w-full z-40 transition-all duration-300",
-        isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5",      
+        "py-3 bg-background/80 backdrop-blur-md shadow-xs"      
     )}>
 
         <div className="container flex items-center justify-between">  
             <a className="text-xl font-bold text-primary flex items-center">
                 <span href='#hero' className="relative z-10">
-                    <span className="text-glow text-foreground">Muhammed</span> Portfolio
+                    <span className="text-glow text-foreground">muuhamedhany</span> Portfolio
                 </span>
             </a>
 

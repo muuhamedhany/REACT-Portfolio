@@ -69,12 +69,12 @@ const ProjectsSection = () => {
 
                 </div>
                 <h3 className="text-xl font-semibold mb-1">
-                  {project.title}
                   <a
                     href={project.githubUrl}
                     target="_blank"
                     className="text-foreground/80 hover:text-primary transition-colors duration-300"
                   >
+                    {project.title}
                     <Github size={20} />
                   </a></h3>
 

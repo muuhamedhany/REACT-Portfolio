@@ -27,7 +27,7 @@ import {
           description: "Thank you for your message. I'll get back to you soon.",
         });
         setIsSubmitting(false);
-      }, 1500);
+      }, 500);
     };
     return (
       <section id="contact" className="py-24 px-4 relative bg-secondary/30">
@@ -111,7 +111,7 @@ import {
             >
               <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
   
-              <form className="space-y-6">
+              <form className="space-y-6" onSubmit={handleSubmit}>
                 <div>
                   <label
                     htmlFor="name"
@@ -171,7 +171,7 @@ import {
                   className={cn(
                     "cosmic-button w-full flex items-center justify-center gap-2"
                   )}
-                  onSubmit={handleSubmit}
+                  
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                   <Send size={16} />

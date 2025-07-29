@@ -53,7 +53,7 @@ import {
                   <div className="p-3 rounded-full bg-primary/10">
                     <Mail className="h-6 w-6 text-primary" />{" "}
                   </div>
-                  <div className="mt-5">
+                  <div className="mt-3">
                     <a
                       href="mailto:muuhamedhany@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -66,7 +66,7 @@ import {
                   <div className="p-3 rounded-full bg-primary/10">
                     <Phone className="h-6 w-6 text-primary" />{" "}
                   </div>
-                  <div className="mt-5">
+                  <div className="mt-3">
                     <a
                       href="tel:+201004899835"
                       className="text-muted-foreground hover:text-primary transition-colors"
@@ -79,7 +79,7 @@ import {
                   <div className="p-3 rounded-full bg-primary/10">
                     <MapPin className="h-6 w-6 text-primary" />{" "}
                   </div>
-                  <div className="mt-5">
+                  <div className="mt-3">
                     <a className="text-muted-foreground hover:text-primary transition-colors">
                       Cairo, Egypt
                     </a>

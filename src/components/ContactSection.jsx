@@ -7,6 +7,7 @@ import {
     Send,
     Twitch,
     Twitter,
+    Github,
   } from "lucide-react";
   import  cn  from "@/lib/utils";
   import { useToast } from "@/components/hooks/use-toast"
@@ -98,6 +99,9 @@ import {
                     <Instagram />
                   </a>
                   
+                    <a href="https://github.com/muuhamedhany" target="_blank">
+                    <Github />
+                  </a>
                 </div>
               </div>
             </div>

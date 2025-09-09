@@ -1,33 +1,33 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, Github, Link } from "lucide-react";
 
 const projects = [
     {
       id: 1,
-      title: "Job Listing App",
-      description: "Job listing app fpr react developers, allowing users to create, view, edit, and delete jobs",
+      title: "Car Rental Website",
+      description: "A responsive car rental website built with React + Tailwind CSS. The project provides an easy-to-use interface for browsing cars, filling rental forms, and managing rental data.",
       image: "/projects/project1.png",
-      tags: ["React", "React Router", "Json Server"],
-      demoUrl: "#",
-      githubUrl: "https://github.com/muuhamedhany/job-listing-app-react",
+      tags: ["React", "React Router", "Tailwind CSS"],
+      demoUrl: "https://carrenral.vercel.app/",
+      githubUrl: "https://github.com/muuhamedhany/Car-Renral-REACT",
     },
     {
       id: 2,
-      title: "Blog Site",
+      title: "E-Commerce Website",
       description:
-        "simple blog application for rendering dynamic content, allowing users to create, view, edit, and delete blog posts.",
+        "A modern e-commerce website built with React and Tailwind CSS, featuring a sleek UI, responsive design, product browsing, cart and wishlist management, and frontend-only authentication with localStorage. ",
       image: "/projects/project2.png",
-      tags: ["HTML/CSS", "Node.js", "Express.js"],
-      demoUrl: "#",
-      githubUrl: "https://github.com/muuhamedhany/BlogSite-with-Node-js-Express.js",
+      tags: ["REACT", "Tailwind CSS", "Local Storage"],
+      demoUrl: "https://pure-store.vercel.app/",
+      githubUrl: "https://github.com/muuhamedhany/E-Commerce-REACT",
     },
     {
       id: 3,
-      title: "E-commerce Platform",
+      title: "E-commerce Website",
       description:
-        "Full-featured e-commerce platform with user authentication and cart.",
+        "A simple PHP-based eCommerce website with user login, signup, product browsing, and cart features. Admin panel supports product and user management. Includes organized folders for categories, images, and styling. ",
       image: "/projects/project3.png",
       tags: ["HTML/CSS", "PHP", "MySQL"],
-      demoUrl: "#",
+      demoUrl: "/",
       githubUrl: "https://github.com/muuhamedhany/e-commerce-with-php",
     },
   ];
@@ -63,7 +63,8 @@ const ProjectsSection = () => {
                   <div className="p-6">
                     <div className="flex flex-wrap gap-2 mb-4">
                       {project.tags.map((tag) => (
-                        <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                        <span className="px-2 py-1 text-xs font-medium border rounded-full
+                         bg-secondary text-secondary-foreground">
                           {tag}
                         </span>
                       ))}
@@ -82,6 +83,14 @@ const ProjectsSection = () => {
                           className="text-foreground/80 hover:text-primary transition-colors duration-300"
                         >
                           <Github size={20} />
+                        </a>
+
+                        <a
+                          href={project.demoUrl}
+                          target="_blank"
+                          className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                        >
+                          <Link size={20} />
                         </a>
                       </div>
                     </div>

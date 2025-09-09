@@ -91,15 +91,18 @@ import {
               <div className="pt-8">
                 <h4 className="font-medium mb-4"> Connect With Me</h4>
                 <div className="flex space-x-4 justify-center">
-                  <a href="https://www.linkedin.com/in/muhammed-hany-b1986834b/" target="_blank">
+                  <a href="https://www.linkedin.com/in/muhammed-hany-b1986834b/" target="_blank"
+                  className="text-foreground/80 hover:text-primary transition-colors duration-300">
                     <Linkedin />
                   </a>
                   
-                  <a href="https://www.instagram.com/muuhamedhany/" target="_blank">
+                  <a href="https://www.instagram.com/muuhamedhany/" target="_blank"
+                  className="text-foreground/80 hover:text-primary transition-colors duration-300">
                     <Instagram />
                   </a>
                   
-                    <a href="https://github.com/muuhamedhany" target="_blank">
+                  <a href="https://github.com/muuhamedhany" target="_blank"
+                  className="text-foreground/80 hover:text-primary transition-colors duration-300">
                     <Github />
                   </a>
                 </div>
